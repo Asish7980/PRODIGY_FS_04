@@ -47,59 +47,52 @@ PRODIGY_FS_04/
 
 ## 📸 Screenshots
 
-| Chat Home | Chat Interaction |
-|-----------|------------------|
-| ![Chat UI](screenshots/home.png) | ![Chat UI](screenshots/chat.png) |
+### 📝🔐 Register and Login Page
+![Register Page](./screenshots/register.jpg)![Login Page](./screenshots/login.jpg)
 
----
+### 🏠 Home Page
+![Home Page](./screenshots/home.jpg)
+
+### 💬 Chat
+![Room Chat](./screenshots/room.jpg) ![Private Chat](./screenshots/chat.jpg)
+
 
 ## 📦 Installation & Usage
 
 1. **Clone the repository**
-   ```bash
+   ```
    git clone https://github.com/Asish7980/PRODIGY_FS_04.git
    cd PRODIGY_FS_04
-Install backend dependencies
-
-bash
-Copy
-Edit
+   ```
+2. **Install backend dependencies**
+```
 npm install
-Start the server
-
-bash
-Copy
-Edit
+```
+3. **Start the server**
+```
 node server/server.js
 # or during development
 nodemon server/server.js
-Open your browser
-
-arduino
-Copy
-Edit
+```
+4. **Open your browser**
+```
 http://localhost:3000
-✅ Learning Outcomes
-Practical experience with client-server communication
+```
 
-Understanding of Express.js and middleware
+## ✅ Learning Outcomes
+- Practical experience with client-server communication
+- Understanding of Express.js and middleware
+- Layout creation with HTML/CSS and DOM scripting
+- Real-time interaction simulation with Socket.IO (if used)
 
-Layout creation with HTML/CSS and DOM scripting
+## 💡 Future Improvements
+- Integrate real-time messaging with Socket.IO
+- Add chat history using MongoDB
+- Deploy using Render, Vercel, or Heroku
+- Add dark mode and sound notifications
 
-Real-time interaction simulation with Socket.IO (if used)
+## 🙋‍♂️ Author
+**Asish Shaw**
 
-💡 Future Improvements
-Integrate real-time messaging with Socket.IO
-
-Add chat history using MongoDB
-
-Deploy using Render, Vercel, or Heroku
-
-Add dark mode and sound notifications
-
-🙋‍♂️ Author
-Asish Shaw
-🔗 GitHub Profile
-
-📃 License
+## 📃 License
 This project is licensed under the MIT License.
